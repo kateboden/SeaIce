@@ -38,6 +38,8 @@ Each one of the Icepack-DA folders within SPINUP_FORE requires the following
 
 - An `icepack` conda environment (see `environment.yml` or set up manually — add setup instructions here)
 - [Icepack](https://github.com/CICE-Consortium/Icepack) built and available
+- If using a DART executable for Step One
+      - [DART](https://github.com/NCAR/DART) built with the necessary executable compiled and in the appropriate run directory
 - Python 3 with the packages required by `ITD_funcs.py` and `optimization_L2.py`
 
 ## Usage
